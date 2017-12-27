@@ -40,7 +40,8 @@ nav.navbar.navbar-dark{
     background-color: rgba(0, 0, 0, 0.40);
     overflow: hidden;
     color: rgb(255, 255, 255);
-    font-family: "Lane", sans-serif;        
+    font-family: "Lane", sans-serif;  
+    margin-bottom: 0;     
 }
 
 h1.display-1{
@@ -89,6 +90,13 @@ h1{
     font-weight: 800;
     line-height: 2.0;
     text-align: center;
+}
+
+#description{
+    background-color: rgb(29, 31, 39);
+    color: rgb(230, 230, 230);
+    padding: 20px 0 40px;
+    margin-bottom: 20px;
 }
 
 .carousel-control-prev,
