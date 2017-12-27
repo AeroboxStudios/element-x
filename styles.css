@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
 @font-face {
     font-family: "Khemala";
     src: url("fonts/Khemala.ttf");
@@ -13,13 +15,19 @@
     src: url("fonts/Vanadine.ttf");
 }
 
+body{
+    font-family: "Lane", sans-serif;    
+}
+
+.brand{
+    font-family: "Abel", sans-serif;    
+}
 
 nav.navbar.navbar-dark{
     z-index: 100;
     position: absolute; 
     background-color: rgba(0,0,0,0);
-    color: rgb(230, 230, 230);
-    font-family: "Khemala", sans-serif;
+    color: rgb(255, 255, 255);
 }
 
 .jumbotron {
@@ -27,18 +35,22 @@ nav.navbar.navbar-dark{
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.39);
     overflow: hidden;
-    color: rgb(230, 230, 230);
-    font-family: "Lane", sans-serif;
+    color: rgb(255, 255, 255);
 }
 
 h1.display-1{
     font-family: "Vanadine";
     line-height: 0.75;
 }
+@media (max-width: 576px) {
+    h1.display-1{   
+        font-size: 4rem;
+    }
+}
 
 .spacer{
     display: inline-block;
-    line-height: 120px;
+    line-height: 140px;
 }
 
 .btn.btn-outline-light{
@@ -65,4 +77,57 @@ h1.display-1{
     height: auto;
     z-index: -1000;
     overflow: hidden;
+}
+
+h1{
+    font-family:  "Vanadine", "Helvetica", sans-serif;
+    font-weight: 800;
+}
+
+.carousel-control-prev,
+.carousel-control-next,
+.carousel-control-prev:focus,
+.carousel-control-next:focus{
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.carousel-control-prev:hover,
+.carousel-control-next:hover
+.carousel-control-prev:hover:focus,
+.carousel-control-next:hover:focus{
+    opacity: 1;
+}
+@media (max-width: 576px) {
+    #carousel{
+        display: none;
+    }
+}
+#screenshots{
+    margin: 5px -5px;
+}
+.img-container{
+    flex-basis: 25%;
+    flex-grow: 0;
+    padding: 5px;
+}
+@media (max-width: 576px) {
+    .img-container{
+        flex-basis: 100%;
+    }
+}
+.img-container>img{
+    width:100%;
+    height: 100%;
+}
+
+.btn.btn-download{
+    background-color: rgb(29, 31, 39);
+    width: auto;
+}
+
+footer{
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgb(29, 31, 39);
+    color: rgb(230, 230, 230);
 }
