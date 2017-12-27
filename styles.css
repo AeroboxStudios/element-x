@@ -16,10 +16,13 @@
 }
 
 body{
-    background-color: rgb(210, 214, 248);
-    font-family: "Lane", sans-serif;    
+    font-family: "Abel", sans-serif;    
+    background-color: rgb(223, 226, 252);
 }
 
+p{
+    font-size: 1.4rem;
+}
 .brand{
     font-family: "Abel", sans-serif;    
 }
@@ -37,6 +40,7 @@ nav.navbar.navbar-dark{
     background-color: rgba(0, 0, 0, 0.40);
     overflow: hidden;
     color: rgb(255, 255, 255);
+    font-family: "Lane", sans-serif;        
 }
 
 h1.display-1{
@@ -83,6 +87,8 @@ h1.display-1{
 h1{
     font-family:  "Vanadine", "Helvetica", sans-serif;
     font-weight: 800;
+    line-height: 2.0;
+    text-align: center;
 }
 
 .carousel-control-prev,
@@ -119,11 +125,13 @@ h1{
 .img-container>img{
     width:100%;
     height: 100%;
+    cursor: pointer;
 }
 
 .btn.btn-download{
     background-color: rgb(29, 31, 39);
     width: auto;
+    font-family: "Lane", sans-serif;            
 }   
 
 footer{
