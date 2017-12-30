@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Abel');
-
 @font-face {
     font-family: "Khemala";
     src: url("fonts/Khemala.ttf");
@@ -15,22 +14,23 @@
     src: url("fonts/Vanadine.ttf");
 }
 
-body{
-    font-family: "Abel", sans-serif;    
+body {
+    font-family: "Abel", sans-serif;
     background-color: rgb(223, 226, 252);
 }
 
-p{
+p {
     font-size: 1.4rem;
 }
-.brand{
-    font-family: "Abel", sans-serif;    
+
+.brand {
+    font-family: "Abel", sans-serif;
 }
 
-nav.navbar.navbar-dark{
+nav.navbar.navbar-dark {
     z-index: 100;
-    position: absolute; 
-    background-color: rgba(0,0,0,0);
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
     color: rgb(255, 255, 255);
 }
 
@@ -40,36 +40,37 @@ nav.navbar.navbar-dark{
     background-color: rgba(0, 0, 0, 0.40);
     overflow: hidden;
     color: rgb(255, 255, 255);
-    font-family: "Lane", sans-serif;  
-    margin-bottom: 0;     
+    font-family: "Lane", sans-serif;
+    margin-bottom: 0;
 }
 
-h1.display-1{
+h1.display-1 {
     font-family: "Vanadine";
     line-height: 0.75;
 }
+
 @media (max-width: 576px) {
-    h1.display-1{   
+    h1.display-1 {
         font-size: 4rem;
     }
 }
 
-.spacer{
+.spacer {
     display: inline-block;
     line-height: 140px;
 }
 
-.btn.btn-outline-light{
+.btn.btn-outline-light {
     border: none;
     border-radius: 0;
     background-color: rgba(0, 0, 0, 0.40);
     width: 120px;
 }
-.btn.btn-outline-light:hover{
+
+.btn.btn-outline-light:hover {
     background-color: rgb(230, 230, 230);
     font-weight: 700;
 }
-
 
 #background {
     position: absolute;
@@ -85,16 +86,20 @@ h1.display-1{
     overflow: hidden;
 }
 
-h1{
-    font-family:  "Vanadine", "Helvetica", sans-serif;
+h1 {
+    font-family: "Vanadine", "Helvetica", sans-serif;
     font-weight: 800;
     line-height: 2.0;
     text-align: center;
 }
 
-#description{
+#description {
     background-color: rgb(29, 31, 39);
     color: rgb(230, 230, 230);
+    
+}
+#about,
+#description{
     padding: 20px 0 40px;
     margin-bottom: 20px;
 }
@@ -102,47 +107,58 @@ h1{
 .carousel-control-prev,
 .carousel-control-next,
 .carousel-control-prev:focus,
-.carousel-control-next:focus{
+.carousel-control-next:focus {
     opacity: 0;
     transition: opacity 0.5s;
 }
+
 .carousel-control-prev:hover,
-.carousel-control-next:hover
-.carousel-control-prev:hover:focus,
-.carousel-control-next:hover:focus{
+.carousel-control-next:hover .carousel-control-prev:hover:focus,
+.carousel-control-next:hover:focus {
     opacity: 1;
 }
+
 @media (max-width: 576px) {
-    #carousel{
+    #carousel {
         display: none;
     }
 }
-#screenshots{
+
+#screenshots {
     margin: 5px -5px;
 }
-.img-container{
+
+.img-container {
     flex-basis: 25%;
     flex-grow: 0;
     padding: 5px;
 }
+
 @media (max-width: 576px) {
-    .img-container{
+    .img-container {
         flex-basis: 100%;
     }
 }
-.img-container>img{
-    width:100%;
+
+.img-container>img {
+    width: 100%;
     height: 100%;
     cursor: pointer;
 }
 
-.btn.btn-download{
+.btn.btn-download {
     background-color: rgb(29, 31, 39);
     width: auto;
-    font-family: "Lane", sans-serif;            
-}   
+    font-family: "Lane", sans-serif;
+}
 
-footer{
+.btn.btn-download:hover {
+    background-color: rgb(223, 226, 252);
+    border: 1px solid rgb(29, 31, 39); 
+    margin: -1px;   
+}
+
+footer {
     margin-top: 50px;
     padding: 20px;
     background-color: rgb(29, 31, 39);
