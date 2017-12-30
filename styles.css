@@ -94,7 +94,7 @@ h1 {
 }
 
 #description {
-    background-color: rgb(29, 31, 39);
+    background-color: #171d2b;
     color: rgb(230, 230, 230);
     
 }
@@ -147,20 +147,20 @@ h1 {
 }
 
 .btn.btn-download {
-    background-color: rgb(29, 31, 39);
+    background-color: #171d2b;
     width: auto;
     font-family: "Lane", sans-serif;
 }
 
 .btn.btn-download:hover {
     background-color: rgb(223, 226, 252);
-    border: 1px solid rgb(29, 31, 39); 
+    border: 1px solid #171d2b; 
     margin: -1px;   
 }
 
 footer {
     margin-top: 50px;
     padding: 20px;
-    background-color: rgb(29, 31, 39);
+    background-color: #171d2b;
     color: rgb(230, 230, 230);
 }
