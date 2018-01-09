@@ -58,14 +58,14 @@ h1.display-1 {
     line-height: 140px;
 }
 
-.btn.btn-outline-light {
+.btn.btn-styled {
     border: none;
     border-radius: 0;
     background-color: rgba(0, 0, 0, 0.40);
     width: 120px;
 }
 
-.btn.btn-outline-light:hover {
+.btn.btn-styled:hover {
     background-color: rgb(230, 230, 230);
     font-weight: 700;
 }
