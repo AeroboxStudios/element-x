@@ -162,7 +162,7 @@ p{
 }
 
 .test1{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.25)), url(../images/2018-01-23_02-28-35.png);
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.25)), url(../images/2018-01-25_18-19-42.png);
 }
 
 .test4{
@@ -178,11 +178,11 @@ p{
 }
 
 .test2{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.25)), url(../images/8.png);
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.25)), url(../images/2018-01-23_13-30-28.png);
 }
 
 .test7{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.25)), url(../images/2018-01-23_13-30-28.png);
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.25)), url(../images/8.png);
 }
 
 /* .test5{
