@@ -1,26 +1,26 @@
 /* FONTS */
 @font-face{
 	font-family: "Anurati";
-	src: url("/font/Anurati-Regular.otf");
+	src: url("/element-x/font/Anurati-Regular.otf");
 }
 
 @font-face{
 	font-family: "Exan";
-	src: url("/font/Exan-Regular.otf");	
+	src: url("/element-x/font/Exan-Regular.otf");	
 }
 
 @font-face {
 	font-family: "Vanadine";
-	src: url("/font/Vanadine.ttf");
+	src: url("/element-x/font/Vanadine.ttf");
 }
 @font-face {
 	font-family: "Khemala";
-	src: url("/font/Khemala.ttf");
+	src: url("/element-x/font/Khemala.ttf");
 }
 
 @font-face {
 	font-family: "Lane";
-	src: url("/font/Lane.ttf");
+	src: url("/element-x/font/Lane.ttf");
 }
 
 
@@ -87,6 +87,10 @@ p{
 	background-color: rgba(0,0,0,0.85);
 }
 
+.navbar-brand{
+	padding-bottom: 9px;
+}
+
 .text-white{
 	color: white;
 }
@@ -117,34 +121,33 @@ p{
 }
 
 .test1{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.75)), url(/images/1.png);
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.75)), url(/element-x/images/1.png);
 }
 
 
 .test2{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.9)), url(/images/2.png);
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.9)), url(/element-x/images/2.png);
 }
 
 .test3{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 1)), url(/images/3.png);
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 1)), url(/element-x/images/3.png);
 }
 
 .test4{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(/images/4.png);
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(/element-x/images/4.png);
 }
 
 .test5{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.55)), url(/images/5.png);
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.55)), url(/element-x/images/5.png);
 }
 
 .test6{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.75)), url(/images/6.png);
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.75)), url(/element-x/images/6.png);
 }
 
 .test7{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.75)), url(/images/7.png);
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.75)), url(/element-x/images/7.png);
 }
-
 
 
 .btn{
@@ -254,10 +257,10 @@ textarea:focus, input:focus{
 
 	.jumbotron{
 		height: 100vh;
-		-moz-background-size: 100vw 100vh;
-		-webkit-background-size: 100vw 100vh;
+		-moz-background-size: 250vw 100vh;
+		-webkit-background-size: 250vw 100vh;
 		background-attachment: scroll;
 		background-position: top;
-		background-size: 100vw 100vh;
+		background-size: 250vw 100vh;
 	}
 }
