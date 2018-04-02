@@ -79,7 +79,9 @@ body{
 }
 
 p{
-	font-size: 3vw;
+	font-size: 2.5vw;
+	margin-left: 15%;
+	padding-right: 15%;
 }
 
 
@@ -97,7 +99,7 @@ p{
 
 
 .row{
-	height: 50%;
+	height: 35%;
 }
 
 .jumbotron{
@@ -113,6 +115,7 @@ p{
 
 .container{
 	height: 100%;
+	padding-top: 5%;
 	margin: auto;
 }
 
@@ -126,15 +129,15 @@ p{
 
 
 .test2{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, .75), rgba(0, 0, 0, 0.75)), url(/element-x/images/2.jpg);
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/element-x/images/2.jpg);
 }
 
 .test3{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 1)), url(/element-x/images/3.jpg);
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.7)), url(/element-x/images/3.jpg);
 }
 
 .test4{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(/element-x/images/4.jpg);
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)), url(/element-x/images/4.jpg);
 }
 
 .test5{
@@ -142,11 +145,11 @@ p{
 }
 
 .test6{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.75)), url(/element-x/images/6.jpg);
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/element-x/images/6.jpg);
 }
 
 .test7{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.75)), url(/element-x/images/7.jpg);
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.125)), url(/element-x/images/7.jpg);
 }
 
 
@@ -189,6 +192,9 @@ textarea:focus, input:focus{
 	width: 30vh;
 }
 
+input[type=submit] {
+	cursor: pointer;
+}
 
 /* ANIMATION OF SCROLLING ICON*/
 
