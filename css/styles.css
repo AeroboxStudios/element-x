@@ -48,48 +48,28 @@
 	transform: translateY(-50%);	
 }
 
-/* Testing */
-
-.last{
-	padding-top: 15vh !important 
-}
-
-.btn-outline-light{
-	transition: color .5s ease-in-out,
-				background-color .5s ease-in-out !important; 
-}
-
-
-/**********/
-
 h1, h2, h3, h4, h5, h6{
 	font-family: 'Vanadine';
 	color: white;
 }
 
 h1{
-	font-size: 10vw ;
+	font-size: 10rem;
 }
 
 h2{
-	font-size: 5vw;
+	font-size: 5rem;
 }
 
 body{
 	background-color: black;
 	color:white;
 	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
 }
 
 p{
-	font-size: 2.25vw;
-	margin-left: 15%;
-	padding-right: 15%;
-}
-
-
-.transparent{
-	background-color: rgba(0,0,0,0.85);
+	font-size: 2.25rem;
 }
 
 @media (min-width: 576px) { /* same as navbar-expand-sm */
@@ -128,21 +108,12 @@ p{
 	height: 35%;
 }
 
-.jumbotron{
+.size-full{
 	height: 105vh;
-	width: auto;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
-	margin: 0% !important;
-}
-
-
-.container{
-	height: 100%;
-	padding-top: 7%;
-	margin: auto;
 }
 
 .test0{
@@ -183,20 +154,16 @@ p{
 	height: 50px;
 	width: 300px;
 	max-width: 80vw;
+	font-weight: 300;
 }
 
-
+.btn-outline-light{
+	transition: color .25s ease-in-out,
+				background-color .25s ease-in-out !important; 
+}
 .text-shadow{
 	text-shadow:  0 0 5px rgba(255,255,255,1) ,0 0 50px rgb(245,255,255) ;
 }
-
-
-.box-shadow{
-	box-shadow: 0px 4px 3px rgba(0,0,0,0.5), 
-	0px 8px 13px rgba(0,0,0,0.1),
-	0px 18px 23px rgba(0,0,0,0.1); 
-}
-
 
 .email{
 	padding: .5rem 1rem;
