@@ -103,11 +103,14 @@ p{
 	color: white;
 }
 
-
-.row{
-	height: 35%;
+.text-x{
+	color: rgba(255, 255, 255, 0.80);
+	text-shadow:  0 0 10px white, 0 0 20px rgb(130, 36, 253), 0 0 40px rgb(130, 36, 253);
 }
 
+.size-full:first-of-type{
+	height: 100vh;
+}
 .size-full{
 	height: 105vh;
 	background-size: cover;
@@ -121,32 +124,33 @@ p{
 }
 
 .test1{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.75)), url(/images/1.jpg);
+	background-image: url(/images/1.jpg);
 }
 
 
 .test2{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/2.jpg);
+	background-image: url(/images/2.jpg);
+	background-position: 70% 40%, center;
 }
 
 .test3{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.7)), url(/images/3.jpg);
+	background-image: url(/images/3.jpg);
 }
 
 .test4{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)), url(/images/4.jpg);
+	background-image: url(/images/4.jpg);
 }
 
 .test5{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.55)), url(/images/5.jpg);
+	background-image: url(/images/5.jpg);
 }
 
 .test6{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/6.jpg);
+	background-image: url(/images/6.jpg);
 }
 
 .test7{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.125)), url(/images/7.jpg);
+	background-image: url(/images/7.jpg);
 }
 
 
@@ -160,9 +164,6 @@ p{
 .btn-outline-light{
 	transition: color .25s ease-in-out,
 				background-color .25s ease-in-out !important; 
-}
-.text-shadow{
-	text-shadow:  0 0 5px rgba(255,255,255,1) ,0 0 50px rgb(245,255,255) ;
 }
 
 .email{
