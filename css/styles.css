@@ -1,26 +1,26 @@
 /* FONTS */
 @font-face{
 	font-family: "Anurati";
-	src: url("/element-x/font/Anurati-Regular.otf");
+	src: url("/font/Anurati-Regular.otf");
 }
 
 @font-face{
 	font-family: "Exan";
-	src: url("/element-x/font/Exan-Regular.otf");	
+	src: url("/font/Exan-Regular.otf");	
 }
 
 @font-face {
 	font-family: "Vanadine";
-	src: url("/element-x/font/Vanadine.ttf");
+	src: url("/font/Vanadine.ttf");
 }
 @font-face {
 	font-family: "Khemala";
-	src: url("/element-x/font/Khemala.ttf");
+	src: url("/font/Khemala.ttf");
 }
 
 @font-face {
 	font-family: "Lane";
-	src: url("/element-x/font/Lane.ttf");
+	src: url("/font/Lane.ttf");
 }
 
 
@@ -92,8 +92,29 @@ p{
 	background-color: rgba(0,0,0,0.85);
 }
 
-.navbar-brand{
-	padding-bottom: 9px;
+.nav-item{
+	margin: 8px;
+	padding: 0;
+	position: relative;
+}
+
+.nav-item .sr-only{
+	height: 0;
+}
+
+.nav-item::after{
+	transition: all 0.5s ease;
+	position: absolute;
+	content: "";
+	height: 0;
+	left: -8px;
+	right: -8px;
+	bottom: -16px;
+}
+.nav-item.active::after{
+	content: "";
+	background-color: white;
+	height: 3px;
 }
 
 .text-white{
@@ -127,32 +148,32 @@ p{
 }
 
 .test1{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.75)), url(/element-x/images/1.jpg);
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.75)), url(/images/1.jpg);
 }
 
 
 .test2{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/element-x/images/2.jpg);
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/2.jpg);
 }
 
 .test3{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.7)), url(/element-x/images/3.jpg);
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.7)), url(/images/3.jpg);
 }
 
 .test4{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)), url(/element-x/images/4.jpg);
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)), url(/images/4.jpg);
 }
 
 .test5{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.55)), url(/element-x/images/5.jpg);
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.55)), url(/images/5.jpg);
 }
 
 .test6{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/element-x/images/6.jpg);
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/6.jpg);
 }
 
 .test7{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.125)), url(/element-x/images/7.jpg);
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.125)), url(/images/7.jpg);
 }
 
 
